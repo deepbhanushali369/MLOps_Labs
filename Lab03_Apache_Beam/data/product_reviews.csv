@@ -1,0 +1,501 @@
+review_id,product_name,review_text,rating
+1,Charger,excellent performance love it,4
+2,Lights,comfortable to use,4
+3,Headphones,comfortable to use,1
+4,Lights,comfortable to use,1
+5,Charger,not bad okay,4
+6,Headphones,love it,4
+7,Lights,not bad reasonable average,4
+8,Desk,too expensive,1
+9,Lights,love it works great super fast,4
+10,Charger,very useful super fast super fast,2
+11,Desk,poor quality,3
+12,Headphones,not bad decent reasonable,3
+13,Lights,bad too expensive too expensive,5
+14,Desk,bright and clear amazing product,2
+15,Headphones,not working,4
+16,Charger,very useful love it,5
+17,Charger,works great value for money bright and clear,3
+18,Lights,good quality excellent performance value for money,1
+19,Desk,value for money bright and clear comfortable to use,4
+20,Headphones,poor quality,2
+21,Laptop,okay,5
+22,Lights,heats up not working,3
+23,Desk,comfortable to use amazing product bright and clear,3
+24,Desk,works great excellent performance comfortable to use,2
+25,Laptop,average reasonable works fine,3
+26,Lights,super fast,2
+27,Headphones,heats up low quality,3
+28,Charger,super fast works great comfortable to use,4
+29,Lights,okay average,2
+30,Charger,bright and clear,2
+31,Charger,works great love it,1
+32,Desk,decent,4
+33,Charger,good quality,4
+34,Lights,works fine,2
+35,Laptop,not bad,2
+36,Laptop,bright and clear,4
+37,Lights,love it amazing product super fast,1
+38,Charger,love it,2
+39,Charger,value for money value for money excellent performance,2
+40,Charger,value for money,2
+41,Laptop,love it,2
+42,Charger,not working disappointing,4
+43,Desk,works great value for money comfortable to use,4
+44,Headphones,works great comfortable to use very useful,4
+45,Charger,disappointing disappointing,4
+46,Charger,stopped working low quality,2
+47,Charger,value for money super fast amazing product,2
+48,Lights,value for money love it,4
+49,Charger,comfortable to use super fast,3
+50,Headphones,super fast,2
+51,Headphones,reasonable average average,2
+52,Charger,not bad,4
+53,Lights,value for money,2
+54,Laptop,bright and clear value for money works great,3
+55,Desk,works fine not bad,2
+56,Laptop,works great,1
+57,Lights,value for money,2
+58,Charger,super fast,2
+59,Headphones,average,3
+60,Desk,stopped working heats up,2
+61,Desk,poor quality not working disappointing,4
+62,Charger,value for money,1
+63,Laptop,excellent performance works great,1
+64,Laptop,bright and clear amazing product works great,3
+65,Desk,reasonable average,2
+66,Headphones,heats up bad stopped working,5
+67,Desk,works fine,4
+68,Desk,comfortable to use,2
+69,Laptop,not bad reasonable,1
+70,Lights,good quality,4
+71,Laptop,super fast,4
+72,Desk,very useful good quality good quality,2
+73,Desk,very useful,1
+74,Headphones,excellent performance super fast,1
+75,Laptop,very useful very useful,3
+76,Lights,excellent performance amazing product works great,1
+77,Desk,disappointing disappointing,5
+78,Laptop,amazing product,3
+79,Charger,okay decent,1
+80,Lights,decent okay,5
+81,Lights,amazing product comfortable to use comfortable to use,5
+82,Headphones,poor quality,3
+83,Charger,value for money,2
+84,Charger,too expensive,1
+85,Desk,average reasonable reasonable,2
+86,Headphones,disappointing poor quality disappointing,2
+87,Laptop,heats up,1
+88,Desk,love it value for money,4
+89,Laptop,not bad works fine not bad,1
+90,Lights,stopped working heats up bad,1
+91,Headphones,too expensive,3
+92,Charger,comfortable to use,4
+93,Lights,very useful good quality love it,4
+94,Headphones,heats up heats up,1
+95,Charger,not bad okay,5
+96,Laptop,bright and clear works great value for money,2
+97,Lights,excellent performance,5
+98,Lights,works fine,4
+99,Headphones,reasonable reasonable reasonable,1
+100,Charger,stopped working,4
+101,Laptop,amazing product comfortable to use value for money,5
+102,Charger,love it,2
+103,Desk,works fine,1
+104,Headphones,bad,4
+105,Headphones,comfortable to use excellent performance,1
+106,Laptop,stopped working,1
+107,Headphones,decent,3
+108,Desk,works fine,1
+109,Headphones,very useful works great very useful,4
+110,Lights,not working stopped working not working,3
+111,Headphones,average reasonable decent,2
+112,Charger,heats up bad not working,2
+113,Laptop,comfortable to use excellent performance,3
+114,Charger,very useful,3
+115,Desk,okay,1
+116,Lights,good quality bright and clear,1
+117,Laptop,value for money good quality,2
+118,Desk,works fine okay,4
+119,Laptop,very useful super fast,2
+120,Headphones,comfortable to use super fast,3
+121,Laptop,reasonable,3
+122,Laptop,bad heats up,2
+123,Charger,low quality low quality stopped working,3
+124,Lights,average,4
+125,Lights,good quality,2
+126,Desk,value for money excellent performance,5
+127,Headphones,super fast good quality,4
+128,Desk,very useful love it,1
+129,Charger,very useful,3
+130,Charger,comfortable to use excellent performance amazing product,3
+131,Headphones,very useful comfortable to use super fast,1
+132,Charger,excellent performance works great bright and clear,2
+133,Lights,excellent performance amazing product works great,5
+134,Desk,works fine decent reasonable,4
+135,Charger,super fast comfortable to use bright and clear,2
+136,Laptop,very useful,1
+137,Headphones,works fine decent decent,4
+138,Charger,excellent performance value for money amazing product,5
+139,Headphones,heats up stopped working poor quality,4
+140,Charger,poor quality,4
+141,Charger,average average,1
+142,Headphones,not bad,5
+143,Lights,too expensive,2
+144,Headphones,amazing product works great amazing product,1
+145,Headphones,excellent performance good quality,3
+146,Headphones,too expensive stopped working heats up,2
+147,Lights,love it amazing product love it,4
+148,Charger,reasonable,2
+149,Desk,excellent performance super fast good quality,4
+150,Laptop,excellent performance amazing product works great,1
+151,Headphones,good quality excellent performance,1
+152,Headphones,value for money excellent performance,2
+153,Charger,super fast excellent performance,1
+154,Desk,excellent performance,2
+155,Laptop,value for money,4
+156,Charger,bright and clear value for money works great,5
+157,Lights,love it love it,4
+158,Lights,value for money love it very useful,1
+159,Desk,works fine average reasonable,5
+160,Desk,super fast excellent performance amazing product,5
+161,Lights,good quality,3
+162,Charger,value for money value for money bright and clear,4
+163,Charger,love it,2
+164,Desk,okay,4
+165,Lights,not bad average,5
+166,Laptop,excellent performance good quality,4
+167,Headphones,good quality works great,4
+168,Lights,excellent performance amazing product,1
+169,Laptop,stopped working heats up,3
+170,Headphones,bright and clear excellent performance super fast,1
+171,Charger,comfortable to use amazing product,1
+172,Charger,very useful good quality love it,2
+173,Headphones,works fine not bad decent,1
+174,Headphones,works fine reasonable,4
+175,Desk,works great love it super fast,1
+176,Laptop,average,3
+177,Charger,reasonable not bad works fine,3
+178,Headphones,amazing product value for money,5
+179,Laptop,decent average average,1
+180,Lights,love it works great value for money,3
+181,Headphones,reasonable,1
+182,Lights,very useful works great,5
+183,Headphones,value for money comfortable to use,3
+184,Charger,not bad decent okay,1
+185,Desk,value for money,2
+186,Headphones,super fast bright and clear super fast,5
+187,Laptop,okay,4
+188,Lights,poor quality disappointing disappointing,2
+189,Headphones,value for money,4
+190,Charger,works great bright and clear,5
+191,Lights,works great,2
+192,Charger,comfortable to use bright and clear,1
+193,Headphones,not bad reasonable,5
+194,Laptop,average,1
+195,Laptop,works fine okay,4
+196,Charger,works fine okay,2
+197,Desk,not bad not bad,2
+198,Laptop,low quality heats up,4
+199,Desk,reasonable not bad,4
+200,Headphones,heats up poor quality,2
+201,Headphones,not working not working,1
+202,Desk,works great,2
+203,Laptop,amazing product,2
+204,Laptop,very useful,1
+205,Lights,decent,2
+206,Lights,works fine not bad average,5
+207,Laptop,okay okay,5
+208,Desk,bright and clear excellent performance good quality,2
+209,Laptop,excellent performance,1
+210,Laptop,not bad average reasonable,2
+211,Lights,decent,1
+212,Charger,works fine average,2
+213,Charger,poor quality too expensive,3
+214,Lights,super fast,4
+215,Charger,stopped working disappointing low quality,1
+216,Desk,comfortable to use amazing product,3
+217,Laptop,comfortable to use works great,4
+218,Lights,good quality comfortable to use super fast,1
+219,Charger,very useful,4
+220,Headphones,average decent decent,5
+221,Headphones,decent not bad,2
+222,Desk,not working,5
+223,Laptop,comfortable to use value for money,3
+224,Laptop,reasonable reasonable,2
+225,Charger,excellent performance bright and clear love it,3
+226,Headphones,not bad,5
+227,Headphones,amazing product,2
+228,Laptop,comfortable to use bright and clear,4
+229,Desk,bright and clear comfortable to use,3
+230,Lights,value for money,3
+231,Laptop,good quality good quality love it,3
+232,Laptop,reasonable okay okay,2
+233,Charger,excellent performance value for money,1
+234,Headphones,comfortable to use good quality,4
+235,Headphones,excellent performance,4
+236,Charger,works great,2
+237,Lights,amazing product,3
+238,Lights,reasonable average,5
+239,Charger,bad low quality,2
+240,Headphones,excellent performance comfortable to use amazing product,1
+241,Charger,disappointing low quality,2
+242,Desk,amazing product,4
+243,Lights,decent,1
+244,Lights,too expensive not working,4
+245,Charger,bright and clear,3
+246,Lights,super fast works great works great,3
+247,Headphones,decent not bad,2
+248,Headphones,excellent performance,3
+249,Lights,love it good quality excellent performance,3
+250,Laptop,not bad decent decent,1
+251,Laptop,very useful comfortable to use good quality,1
+252,Lights,average,5
+253,Headphones,stopped working,2
+254,Desk,excellent performance value for money works great,3
+255,Lights,decent reasonable average,5
+256,Desk,comfortable to use works great works great,1
+257,Headphones,works great works great bright and clear,5
+258,Headphones,bad not working,3
+259,Lights,decent,2
+260,Laptop,very useful amazing product,3
+261,Lights,excellent performance love it amazing product,4
+262,Charger,bad not working heats up,2
+263,Headphones,love it,5
+264,Desk,value for money,4
+265,Laptop,too expensive poor quality,4
+266,Laptop,poor quality,2
+267,Headphones,not bad,1
+268,Laptop,good quality excellent performance comfortable to use,1
+269,Charger,good quality,4
+270,Lights,very useful excellent performance,1
+271,Lights,too expensive,2
+272,Headphones,heats up disappointing bad,1
+273,Charger,comfortable to use good quality comfortable to use,1
+274,Charger,amazing product,3
+275,Desk,not bad not bad works fine,2
+276,Laptop,stopped working heats up disappointing,1
+277,Headphones,very useful,4
+278,Lights,decent not bad works fine,3
+279,Headphones,bad disappointing stopped working,2
+280,Desk,amazing product,1
+281,Laptop,poor quality disappointing,2
+282,Charger,super fast very useful value for money,1
+283,Laptop,love it super fast,1
+284,Headphones,excellent performance value for money amazing product,3
+285,Charger,low quality disappointing low quality,5
+286,Lights,comfortable to use good quality,4
+287,Laptop,average decent works fine,1
+288,Headphones,very useful comfortable to use good quality,4
+289,Charger,good quality works great excellent performance,4
+290,Headphones,works great super fast,2
+291,Desk,disappointing bad not working,3
+292,Lights,heats up too expensive,2
+293,Laptop,comfortable to use value for money comfortable to use,1
+294,Laptop,reasonable,5
+295,Desk,not working,3
+296,Laptop,works great good quality amazing product,4
+297,Headphones,decent decent average,3
+298,Desk,comfortable to use value for money,5
+299,Desk,reasonable decent,5
+300,Desk,reasonable average,4
+301,Lights,not bad works fine,1
+302,Laptop,works fine okay,5
+303,Charger,decent okay,3
+304,Headphones,not working,4
+305,Laptop,reasonable average reasonable,2
+306,Desk,comfortable to use love it,5
+307,Headphones,love it very useful,2
+308,Laptop,comfortable to use value for money amazing product,1
+309,Lights,not bad okay not bad,5
+310,Headphones,reasonable works fine works fine,2
+311,Desk,too expensive,5
+312,Charger,bad,3
+313,Desk,decent decent,2
+314,Laptop,excellent performance super fast love it,4
+315,Charger,works fine,5
+316,Desk,amazing product comfortable to use,4
+317,Lights,bright and clear bright and clear comfortable to use,2
+318,Lights,bright and clear,3
+319,Desk,not bad,1
+320,Charger,poor quality,4
+321,Charger,comfortable to use comfortable to use comfortable to use,5
+322,Headphones,not working low quality,3
+323,Charger,bright and clear love it excellent performance,1
+324,Charger,reasonable,5
+325,Headphones,super fast,3
+326,Charger,average works fine not bad,2
+327,Charger,not bad decent average,2
+328,Laptop,bad too expensive,4
+329,Lights,not bad,4
+330,Desk,average,4
+331,Lights,okay,5
+332,Headphones,stopped working too expensive,2
+333,Desk,decent decent,3
+334,Desk,okay,4
+335,Desk,works great super fast,1
+336,Desk,average okay reasonable,4
+337,Laptop,bright and clear love it good quality,2
+338,Lights,super fast,4
+339,Headphones,love it value for money,2
+340,Laptop,good quality,1
+341,Headphones,good quality amazing product,3
+342,Lights,okay decent works fine,1
+343,Desk,poor quality low quality,1
+344,Lights,bright and clear,4
+345,Charger,excellent performance very useful,3
+346,Lights,good quality works great good quality,3
+347,Charger,very useful amazing product very useful,5
+348,Desk,not working not working,1
+349,Laptop,average,1
+350,Charger,too expensive not working,4
+351,Lights,disappointing,5
+352,Laptop,love it good quality love it,2
+353,Desk,poor quality heats up,5
+354,Charger,super fast very useful,4
+355,Laptop,very useful comfortable to use super fast,4
+356,Headphones,heats up heats up,5
+357,Charger,bad,3
+358,Desk,decent okay decent,1
+359,Laptop,works great,5
+360,Desk,good quality good quality love it,4
+361,Laptop,low quality low quality,4
+362,Lights,excellent performance,5
+363,Desk,good quality,5
+364,Lights,love it bright and clear,4
+365,Desk,okay not bad reasonable,3
+366,Desk,works fine,1
+367,Lights,love it love it,5
+368,Desk,excellent performance works great very useful,1
+369,Headphones,bright and clear bright and clear very useful,5
+370,Charger,works great excellent performance good quality,5
+371,Charger,reasonable,2
+372,Desk,reasonable,2
+373,Desk,too expensive heats up too expensive,2
+374,Laptop,stopped working not working poor quality,1
+375,Desk,average reasonable decent,4
+376,Laptop,value for money comfortable to use,3
+377,Headphones,very useful love it works great,5
+378,Laptop,bad,1
+379,Lights,reasonable,1
+380,Laptop,low quality stopped working poor quality,4
+381,Laptop,average reasonable decent,5
+382,Headphones,amazing product good quality,1
+383,Headphones,works great,4
+384,Desk,value for money good quality works great,5
+385,Desk,decent,1
+386,Lights,stopped working stopped working heats up,5
+387,Headphones,works fine decent,3
+388,Headphones,works fine,1
+389,Desk,works great super fast,5
+390,Charger,reasonable decent,3
+391,Charger,super fast works great bright and clear,2
+392,Headphones,reasonable reasonable not bad,2
+393,Lights,amazing product comfortable to use,1
+394,Headphones,love it very useful,3
+395,Lights,very useful,3
+396,Headphones,heats up not working stopped working,2
+397,Lights,okay average reasonable,3
+398,Laptop,excellent performance,2
+399,Charger,average works fine decent,5
+400,Lights,decent average,4
+401,Headphones,works great super fast good quality,4
+402,Laptop,good quality value for money,5
+403,Laptop,bad disappointing,1
+404,Laptop,average,4
+405,Lights,not working poor quality stopped working,2
+406,Desk,super fast value for money,4
+407,Headphones,not working heats up,2
+408,Laptop,very useful excellent performance works great,2
+409,Desk,reasonable decent works fine,5
+410,Laptop,okay not bad reasonable,1
+411,Lights,comfortable to use amazing product,4
+412,Desk,average,2
+413,Laptop,average not bad,4
+414,Desk,very useful,5
+415,Laptop,reasonable average okay,2
+416,Desk,disappointing not working poor quality,5
+417,Charger,bright and clear,3
+418,Desk,works fine okay,4
+419,Charger,works fine,5
+420,Headphones,bright and clear comfortable to use good quality,5
+421,Desk,comfortable to use,5
+422,Laptop,bright and clear love it,4
+423,Headphones,value for money super fast value for money,3
+424,Lights,love it good quality,3
+425,Desk,okay works fine works fine,2
+426,Lights,disappointing too expensive,1
+427,Charger,disappointing not working,3
+428,Laptop,average,3
+429,Charger,poor quality,2
+430,Charger,value for money,1
+431,Charger,decent,1
+432,Charger,comfortable to use,3
+433,Laptop,good quality,1
+434,Laptop,comfortable to use good quality,4
+435,Lights,works fine okay okay,2
+436,Headphones,works great,4
+437,Desk,heats up too expensive disappointing,1
+438,Lights,decent average not bad,5
+439,Desk,decent,4
+440,Lights,low quality disappointing too expensive,2
+441,Lights,love it,5
+442,Laptop,average,5
+443,Headphones,disappointing disappointing,4
+444,Laptop,excellent performance,5
+445,Lights,not bad reasonable not bad,3
+446,Laptop,excellent performance comfortable to use,1
+447,Laptop,super fast,5
+448,Headphones,amazing product love it,1
+449,Charger,comfortable to use,4
+450,Lights,okay,1
+451,Headphones,bright and clear,1
+452,Lights,value for money,2
+453,Laptop,bad,5
+454,Laptop,works fine decent okay,1
+455,Desk,super fast very useful,1
+456,Lights,low quality,1
+457,Headphones,not bad,5
+458,Headphones,value for money comfortable to use,4
+459,Laptop,works fine not bad,4
+460,Desk,average okay,1
+461,Desk,bright and clear amazing product works great,1
+462,Headphones,works fine not bad,5
+463,Desk,love it value for money love it,5
+464,Laptop,value for money excellent performance,4
+465,Desk,poor quality,2
+466,Headphones,amazing product excellent performance love it,5
+467,Lights,decent reasonable,4
+468,Desk,not bad decent works fine,3
+469,Lights,very useful love it value for money,1
+470,Laptop,disappointing heats up heats up,3
+471,Desk,very useful very useful super fast,5
+472,Headphones,disappointing,3
+473,Desk,bright and clear excellent performance comfortable to use,5
+474,Lights,works fine,3
+475,Desk,bright and clear,3
+476,Headphones,good quality,1
+477,Laptop,not bad not bad works fine,4
+478,Laptop,bad not working,5
+479,Lights,average works fine,2
+480,Charger,okay,3
+481,Laptop,amazing product good quality,4
+482,Lights,very useful value for money,2
+483,Laptop,very useful works great,1
+484,Lights,not bad reasonable not bad,1
+485,Lights,not working poor quality,1
+486,Headphones,decent decent,3
+487,Charger,reasonable decent,4
+488,Charger,value for money super fast excellent performance,3
+489,Lights,heats up bad too expensive,5
+490,Lights,comfortable to use,3
+491,Charger,comfortable to use comfortable to use comfortable to use,1
+492,Headphones,bad too expensive,3
+493,Charger,works fine,5
+494,Desk,comfortable to use love it good quality,5
+495,Charger,stopped working bad poor quality,2
+496,Desk,bad bad,5
+497,Charger,reasonable,1
+498,Laptop,not bad,1
+499,Headphones,love it,4
+500,Charger,not working,2
