@@ -1,0 +1,14 @@
+# Ignore virtual environments
+beam_env/
+venv/
+.env/
+
+# Ignore temporary folders
+__pycache__/
+.ipynb_checkpoints/
+outputs/
+data/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
