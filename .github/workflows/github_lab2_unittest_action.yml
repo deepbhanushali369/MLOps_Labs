@@ -1,33 +1,20 @@
-name: Python Unittests
+name: Unittests
 
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-
-    - name: Run unittests
-      run: python -m unittest test.test_unittest
-
-    - name: Notify on success
-      if: success()
-      run: echo "Unit tests passed successfully"
-
-    - name: Notify on failure
-      if: failure()
-      run: echo "Unit tests failed"
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: |
+          cd Lab04_Github_Lab/Lab1
+          python -m unittest discover -s test -p "test_unittest.py"
