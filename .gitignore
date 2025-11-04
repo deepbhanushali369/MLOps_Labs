@@ -2,6 +2,7 @@
 beam_env/
 venv/
 .env/
+github_env/
 
 # Ignore temporary folders
 __pycache__/
