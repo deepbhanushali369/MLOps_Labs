@@ -16,6 +16,7 @@ The objective was to understand how continuous integration pipelines help ensure
 ---
 
 ## Project Structure
+```
 MLOps_Labs/
 │
 ├── .github/
@@ -31,7 +32,7 @@ MLOps_Labs/
 │
 ├── requirements.txt
 └── .gitignore
-
+```
 ## Step-by-Step Implementation
 
 ### Step 1: Virtual Environment
