@@ -37,7 +37,7 @@ jobs:
       - name: Authenticate with GCP # Authenticate to Google Cloud Platform
         uses: 'google-github-actions/auth@v2' # Use the Google authentication action, version 2
         with:
-          credentials_json: '${{ secrets.GCP_SA_KEY }}' # Use GCP service account key stored in GitHub secrets
+          credentials_json: '${{ secrets.GCP_GITHUB_LAB05 }}' # Use GCP service account key stored in GitHub secrets
 
       - name: Train and save model # Train the model and save it to Google Cloud Storage
         run: |
