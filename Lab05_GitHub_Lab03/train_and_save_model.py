@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from google.cloud import storage
 import joblib
 from datetime import datetime
@@ -9,10 +9,10 @@ from datetime import datetime
 # Download necessary data - Iris data from sklearn library
 # We define a function to download the data
 def download_data():
-  from sklearn.datasets import load_iris
-  iris = load_iris()
-  features = pd.DataFrame(iris.data, columns=iris.feature_names)
-  target = pd.Series(iris.target)
+  from sklearn.datasets import load_wine
+  wine = load_wine()
+  features = pd.DataFrame(wine.data, columns=wine.feature_names)
+  target = pd.Series(wine.target)
   return features, target
 
 # Define a function to preprocess the data
@@ -49,7 +49,14 @@ def main():
   # Evaluate model
   y_pred = model.predict(X_test)
   accuracy = accuracy_score(y_test, y_pred)
-  print(f'Model accuracy: {accuracy}')
+  precision = precision_score(y_test, y_pred, average='weighted')
+  recall = recall_score(y_test, y_pred, average='weighted')
+  f1 = f1_score(y_test, y_pred, average='weighted')
+  
+  print(f'Model Accuracy: {accuracy:.4f}')
+  print(f'Model Precision: {precision:.4f}')
+  print(f'Model Recall: {recall:.4f}')
+  print(f'Model F1-Score: {f1:.4f}')
   
   # Save the model to gcs
   bucket_name = "lab05-github-actions"
