@@ -4,6 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from google.cloud import storage
 import joblib
+import json
 from datetime import datetime
 
 # Download necessary data - Iris data from sklearn library
@@ -37,6 +38,19 @@ def save_model_to_gcs(model, bucket_name, blob_name):
   blob = bucket.blob(blob_name)
   blob.upload_from_filename('model.joblib')
 
+# Define a function to save metrics to GCS
+def save_metrics_to_gcs(metrics, bucket_name, blob_name):
+  # Save metrics locally as JSON
+  with open('metrics.json', 'w') as f:
+    json.dump(metrics, f, indent=4)
+  
+  # Upload to GCS
+  storage_client = storage.Client()
+  bucket = storage_client.bucket(bucket_name)
+  blob = bucket.blob(blob_name)
+  blob.upload_from_filename('metrics.json')
+  print(f"Metrics saved to gs://{bucket_name}/{blob_name}")
+  
 # Putting all functions together
 def main():
   # Download data
@@ -65,7 +79,20 @@ def main():
   save_model_to_gcs(model, bucket_name, blob_name)
   print(f"Model saved to gs://{bucket_name}/{blob_name}")
   
+  # Create metrics dictionary
+  metrics = {
+    'accuracy': float(accuracy),
+    'precision': float(precision),
+    'recall': float(recall),
+    'f1_score': float(f1),
+    'timestamp': datetime.now().isoformat(),
+    'model_type': 'RandomForestClassifier',
+    'dataset': 'Wine'
+  }
+  
+  # Save metrics to GCS
+  metrics_blob_name = f"metrics/metrics_{timestamp}.json"
+  save_metrics_to_gcs(metrics, bucket_name, metrics_blob_name)
+  
 if __name__ == "__main__":
   main()
-
-  
